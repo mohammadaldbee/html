@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .cont {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: 16% 50% auto;
+            gap: 10px;
+            height: 720px;
+        }
+
+        .one {
+            grid-column: 1 / 4;
+            background-color: black;
+        }
+
+        .two {
+            grid-column: 1 / 3;
+            background-color: orange;
+        }
+
+        .three {
+
+            background-color: green;
+        }
+
+        .four {
+            grid-column: 1 / 4;
+            background-color: blue;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="cont">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="four"></div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            background-color: #a8bf7e;
+        }
+
+        .cont {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: 15%;
+            width: 350px;
+            height: 400px;
+            margin: auto;
+            gap: 15px;
+            margin-top: 150px;
+            background-color: #a0d0ea;
+            border: 20px solid #a0d0ea;
+        }
+
+        .five {
+            grid-column: 1/5;
+            background-color: rgb(219, 225, 230);
+            
+        }
+
+        .cont div {
+
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            box-shadow: 0 5px 0 rgba(128, 128, 128, 0.39)
+        }
+
+        .no {
+            background-color: #efff93;
+        }
+
+        .yes {
+            background-color: aliceblue;
+        }
+
+        .yn {
+            background-color: #fe9fa9;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="cont">
+        <div class="five"></div>
+        <div class="yes">1</div>
+        <div class="yes">2</div>
+        <div class="yes">3</div>
+        <div class="no">+</div>
+        <div class="yes">4</div>
+        <div class="yes">5</div>
+        <div class="yes">6</div>
+        <div class="no">-</div>
+        <div class="yes">7</div>
+        <div class="yes">8</div>
+        <div class="yes">9</div>
+        <div class="no">*</div>
+        <div class="yn">C</div>
+        <div class="yes">0</div>
+        <div class="yes">=</div>
+        <div class="no">/</div>
+    </div>
+</body>
+
+</html>
