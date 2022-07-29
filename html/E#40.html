@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .cont {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            width: 1500px;
+            gap: 20px;
+            margin: auto;
+
+
+
+        }
+
+        .flex {
+            display: flex;
+
+
+        }
+
+        .border {
+            border: 1px solid gray;
+            border-radius: 10px;
+        }
+
+        img {
+            border-radius: 10px;
+        }
+
+        .img2 {
+            width: 50px;
+            height: 50px;
+            border-radius: 20px;
+            margin-top: 30px;
+            margin-left: 10px;
+
+        }
+
+        @media (max-width: 800px) {
+            .cont {
+                grid-template-columns: auto auto;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .cont {
+                grid-template-columns: auto;
+
+
+            }
+
+            p {
+                width: 50%;
+
+            }
+
+        }
+
+        @media (max-width: 200px) {
+            .flex {
+                display: grid;
+                grid-template-columns: auto;
+                width: 200px;
+
+
+            }
+
+        }
+
+        p,
+        h2,
+        h4 {
+            padding-left: 10px;
+
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <div class="cont">
+        <div class="flex border">
+            <img src="tailwind_card_example_row_2.png">
+
+            <div>
+                <h2>Best mountain trails 2020</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
+                    debitis culpa nisi assumenda, explicabo, provident officiis c
+                    onsequuntur dolore, quam tenetur nihil repudiandae molestiae d
+                    ignissimos labore minus. Qui totam labore minus.</p>
+                <div class="flex">
+                    <img class="img2"
+                        src="https://th.bing.com/th/id/OIP.Jm4EwNAg4hOV6mZm2-xZ0wHaHa?w=183&h=183&c=7&r=0&o=5&dpr=1.25&pid=1.7">
+                    <div>
+                        <h4>john smith</h4>
+                        <p>Aug 18</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex border">
+            <img src="tailwind_card_example_row_3.png">
+
+            <div>
+                <h2>15 rivers in norway</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
+                    debitis culpa nisi assumenda, explicabo, provident officiis c
+                    onsequuntur dolore, quam tenetur nihil repudiandae molestiae d
+                    ignissimos labore minus. Qui totam labore minus.</p>
+                <div class="flex">
+                    <img class="img2"
+                        src="https://th.bing.com/th/id/OIP.gbtsU96JPnQ8xCtxG3s5AwHaD8?w=340&h=181&c=7&r=0&o=5&dpr=1.25&pid=1.7">
+                    <div>
+                        <h4>Kareen Johnson</h4>
+                        <p>Aug 12</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+        <div class="flex border">
+            <img src="tailwind_card_example_row_4.png">
+
+            <div>
+                <h2>5 national forsets across the u.s</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
+                    debitis culpa nisi assumenda, explicabo, provident officiis c
+                    onsequuntur dolore, quaotam labore minus.</p>
+                <div class="flex">
+                    <img class="img2"
+                        src="https://th.bing.com/th/id/OIP.YbDXn7wllapXSgiPQeO_aAHaD5?w=342&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7">
+                    <div>
+                        <h4>Rafael Martin</h4>
+                        <p>Aug 10</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
